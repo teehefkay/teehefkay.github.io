@@ -1,0 +1,153 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'Bai Jamjuree', sans-serif;
+}
+body {
+	background-image: url("images/bg-header-desktop.png");
+	background-repeat: no-repeat;
+	
+}
+header {
+	text-align: center;
+	padding-top: 75px;
+}
+header > img {
+	width: 120px;
+}
+header > h2 {
+	font-size: 2rem;
+	color: hsl(210, 10%, 33%);
+	margin: 30px 0px 20px 0px;
+}
+header > p {
+	color: hsl(201, 11%, 66%);
+	margin: auto;
+	max-width: 500px;
+	margin-bottom: 30px;	
+}
+footer {
+	text-align: center;
+	padding-top: 75px;
+	margin-left: 150px;
+}
+footer > img {
+	width: 120px;
+}
+footer > h2 {
+	font-size: 2rem;
+	color: hsl(210, 10%, 33%);
+	margin: 30px 0px 20px 0px;
+}
+footer > p {
+	color: hsl(201, 11%, 66%);
+	margin: auto;
+	max-width: 500px;
+	margin-bottom: 30px;	
+}
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 20px;
+	text-decoration: none;
+	background-color: #ddd;
+}
+.btn.green {
+	background-color: hsl(171, 66%, 44%);
+	box-shadow: 1px 1px hsl(171, 66%, 44%);
+}
+.btn.blue {
+	background-color: hsl(233, 100%, 69%);
+	box-shadow: 1px 1px hsl(233, 100%, 69%);
+}
+a {
+	color: white;
+}
+/* main */
+section {
+	margin: 100px 0px;
+}
+section .section-header {
+	text-align: center;
+}
+section .section-header > p {
+	max-width: 550px;
+	margin: 20px auto;
+	color: hsl(201, 11%, 66%);
+	margin-bottom: 30px;
+}
+section .section-header > h2 {
+	font-size: 2rem;
+	color: hsl(210, 10%, 33%);
+	margin: 30px 0px 20px 0px;
+} 
+.float-container > * {
+	float: left;
+}
+.float-container::after {
+	content: "";
+	display: block;
+	clear: left;
+}
+.float1 > div {
+	width: 50%;
+}
+.float1 > div:first-child img {
+	margin-left: -30px;
+}
+.float1 > div > article {
+	margin: 50px 0px;
+	padding-left: 50px;
+}
+.float1 > div > article > p {
+	max-width: 300px;
+	color: hsl(201, 11%, 66%);
+	
+}
+.float1 > div > article > h3 {
+	font-size: 2rem;
+	color: hsl(210, 10%, 33%);
+	margin: 30px 0px 20px 0px;
+} 
+section .section-header > img {
+	height: 400px;
+	width: 600px;
+	margin: 40px;
+}
+.float-containers > * {
+	float: left;
+	text-align: center;
+}
+.float-containers::after {
+	content: "";
+	display: block;
+	clear: left;
+}
+.float2 > div {
+	width: 50%;
+}
+.float2 > img {
+	/* margin-left: -30px; */
+}
+.float2 > article {
+	margin: 20px 0px;
+    padding: 50px;
+} 
+.float-containers > article > p { 
+	 max-width: 300px;
+	 color: hsl(201, 11%, 66%); 
+ } 
+.float2 > article > h3 {
+	font-size: 2rem;
+	color: hsl(210, 10%, 33%);
+	margin: 30px 0px 20px 0px;
+} 
+.float-containers > article.icon {
+	margin: -30px;
+}
+
+
+
+
+
